@@ -1,0 +1,17 @@
+name = "database-access-provision"
+version = "0.1.0"
+description = "Automation for database access."
+readme = "README.md"
+requires-python = ">=3.10.8"
+
+[tool.isort]
+profile = "black"
+include_trailing_comma=true
+multi_line_output=3
+line_length=79
+
+[tool.black]
+line_length=79
+
+[tool.pylint.format]
+max-line-length = "79"
